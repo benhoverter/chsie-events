@@ -47,7 +47,7 @@
     width: 100%;
     font-weight: 600;
     background-color: inherit;
-    border: none;
+    border: 1px solid transparent;
     box-shadow: none; }
     #event-materials-table .event-materials-title input:focus {
       box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
@@ -78,11 +78,11 @@
 .chsie-waitlist-row {
   background-color: #f7f7f7 !important; }
   .chsie-waitlist-row input[type="radio"] {
-    margin-left: 15px;
-    margin-right: 0px; }
+    margin-bottom: -3px; }
   .chsie-waitlist-row td:first-of-type {
     padding-left: 30px; }
   .chsie-waitlist-row label {
-    padding-bottom: 4px; }
+    padding-bottom: 4px;
+    margin: 0 30px 0 3px; }
   .chsie-waitlist-row .radio-intro {
     display: block; }
