@@ -1,0 +1,57 @@
+.tribe_events .event-materials-section-title {
+  padding: 0 4%; }
+
+.tribe_events .event-materials-title {
+  margin-top: 20px; }
+
+.tribe_events .event-materials-group h4 a::after {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-family: 'ETmodules';
+  font-size: 26px;
+  content: '\35';
+  position: absolute;
+  opacity: 0;
+  margin-left: -35px; }
+
+.tribe_events .event-materials-group h4 a:hover, .tribe_events .event-materials-group h4 a:focus {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #b7a57a; }
+  .tribe_events .event-materials-group h4 a:hover::after, .tribe_events .event-materials-group h4 a:focus::after {
+    opacity: 1;
+    margin-left: -2px; }
+
+#rsvp-title {
+  padding: 20px 4%; }
+
+#rsvp-wrapper .tribe-link-view-attendee {
+  padding: 0 4%;
+  margin-top: 4px; }
+
+#current-user-registration-info {
+  margin-bottom: 2%; }
+
+#current-user-registration-info form {
+  margin-top: 26px; }
+
+#current-user-registration-info thead {
+  font-weight: 600;
+  background-color: #f6f6f6; }
+
+#current-user-registration-info button.update-button {
+  display: none; }
+
+#current-user-registration-info .update-msg {
+  font-style: italic; }
+
+#uer-frame {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 0; }

@@ -1,0 +1,139 @@
+/*
+
+CSS for CHSIE Event Registration Plugin: Admin Metabox Area
+
+Version: 1.0.0
+
+Author: Ben Hoverter
+Author URI: http://benhoverter.com
+
+*/
+
+
+#event-materials .inside .hide-if-no-js {
+    margin-top: 14px;
+    width: 100%;
+    text-align: right;
+}
+
+#event-materials .inside .hide-if-no-js div {
+    display: inline-block;
+}
+
+#event-materials .inside .hide-if-no-js #event-materials-upload {
+    float: left;
+}
+
+#event-materials .inside .hide-if-no-js #event-materials-save-result {
+    vertical-align: bottom;
+    margin: 0 10px 5px 0;
+    font-style: italic;
+}
+
+#event-materials .inside .hide-if-no-js #event-materials-save a.button {
+    opacity: .35;
+    cursor: default;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+}
+
+#event-materials .inside .hide-if-no-js #event-materials-save a.button.ready {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#event-materials-table {
+    border-collapse: collapse;
+}
+
+#event-materials-table thead {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+#event-materials-table thead td {
+    padding-bottom: 12px;
+}
+
+#event-materials-table #no-materials-selected td {
+    padding-left: 0;
+}
+
+#event-materials-table #event-materials-headings td {
+    padding-left: 23px;
+}
+
+#event-materials-table tbody tr {
+    border: 1px solid #e2e2e2;
+    background-color: #f7f7f7;
+    cursor: move;
+}
+
+#event-materials-table tbody td {
+    padding: 18px;
+}
+
+#event-materials-table tbody td.event-materials-url a {
+    padding-left: 5px;
+}
+
+#event-materials-table .event-materials-title {
+    width: 31%;
+}
+
+#event-materials-table .event-materials-description {
+    width: 60%;
+}
+
+
+#event-materials-table .event-materials-title input {
+    width: 100%;
+    font-weight: 600;
+    background-color: inherit;
+    border: none;
+    box-shadow: none;
+}
+
+#event-materials-table .event-materials-title input:focus {
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    transition: 50ms border-color ease-in-out;
+}
+
+#event-materials-table .event-materials-description input {
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    transition: 50ms border-color ease-in-out;
+}
+
+
+.chsie-waitlist-row {
+    background-color: #f1f1f1 !important;
+}
+
+.chsie-waitlist-row input[type="radio"] {
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+.chsie-waitlist-row td:first-of-type {
+    padding-left: 30px;
+}
+
+.chsie-waitlist-row label {
+    padding-bottom: 4px;
+}
+
+.chsie-waitlist-row .radio-intro {
+    display: block;
+}

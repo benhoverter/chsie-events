@@ -1,0 +1,15 @@
+{
+  "name": "chsie_events",
+  "version": "1.0.0",
+  "description": "Add-on for the Tribe Events and Tribe Tickets plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Hoverter",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}

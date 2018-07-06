@@ -1,0 +1,116 @@
+// CSS for CHSIE Event Registration Plugin: Admin Metabox Area
+// Version: 1.0.0
+// Author: Ben Hoverter
+// Author URI: http://benhoverter.com
+
+@import globals/chsie-events-admin-globals
+
+// General Metabox
+#event-materials .inside .hide-if-no-js
+    margin-top: 14px
+    width: 100%
+    text-align: right
+
+    div
+        display: inline-block
+
+    #event-materials-upload
+        float: left
+
+    #event-materials-save-result
+        vertical-align: bottom
+        margin: 0 10px 5px 0
+        font-style: italic
+
+    #event-materials-save
+        a.button
+            +transition( 0.2s )
+            opacity: .35
+            cursor: default
+
+        a.button.ready
+            opacity: 1
+            cursor: pointer
+
+// Metabox table
+#event-materials-table
+    border-collapse: collapse
+
+    thead
+        font-weight: 600
+        font-size: 14px
+
+        td
+            padding-bottom: 12px
+
+        #no-materials-selected td
+            padding-left: 0
+
+        #event-materials-headings td
+            padding-left: 23px
+
+    tbody
+
+        tr
+            border: 1px solid $lt-gray
+            background-color: $table-back
+            cursor: move
+
+        td
+            padding: 18px
+
+        td.event-materials-url a
+            padding-left: 5px
+
+// More metabox table
+#event-materials-table
+
+    .event-materials-title
+        width: 31%
+
+        input
+            width: 100%
+            font-weight: 600
+            background-color: inherit
+            border: none
+            box-shadow: none
+
+            &:focus
+                +inset-shadow
+                +transition( 0.2s )
+                width: 100%
+                border: 1px solid $lt-gray
+                background-color: white
+                color: $dk-gray
+                outline: 0
+
+
+
+    .event-materials-description
+        width: 60%
+
+        input
+            +inset-shadow
+            +transition( 0.2s )
+            width: 100%
+            border: 1px solid $lt-gray
+            background-color: white
+            color: $dk-gray
+            outline: 0
+
+// Waitlist additions to Tribe Tickets metabox
+.chsie-waitlist-row
+    background-color: $table-back !important
+
+    input[type="radio"]
+        margin-left: 15px
+        margin-right: 0px
+
+    td:first-of-type
+        padding-left: 30px
+
+    label
+        padding-bottom: 4px
+
+    .radio-intro
+        display: block

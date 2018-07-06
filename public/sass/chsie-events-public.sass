@@ -1,0 +1,66 @@
+// Sass for CHSIE Event Registration Plugin: Frontend Display (Shortcodes)
+// Version: 1.0.0
+// Author: Ben Hoverter
+// Author URI: http://benhoverter.com
+
+@import globals/chsie-events-public-globals
+
+// Event Materials
+.tribe_events
+    .event-materials-section-title
+        padding: 0 4%
+
+    .event-materials-title
+        margin-top: 20px
+
+    .event-materials-group h4 a
+        &::after
+            +transition( 0.2s )
+            font-family: 'ETmodules'
+            font-size: 26px
+            content: '\35'
+            position: absolute
+            opacity: 0
+            margin-left: -35px
+
+        &:hover, &:focus
+            +transition( 0.2s )
+            color: $lt-gold
+
+            &::after
+                opacity: 1
+                margin-left: -2px
+
+// Event RSVP
+#rsvp-title
+    padding: 20px 4%
+
+#rsvp-wrapper .tribe-link-view-attendee
+    padding: 0 4%
+    margin-top: 4px
+
+// User Registration Info
+#current-user-registration-info
+    margin-bottom: 2%
+
+#current-user-registration-info
+    form
+        margin-top: 26px
+
+    thead
+        font-weight: 600
+        background-color: #f6f6f6
+
+    button.update-button
+        display: none
+
+    .update-msg
+        font-style: italic
+
+//#current-user-registration-info
+    .rsvp-event-id, .rsvp-product-id
+        display: none
+
+#uer-frame
+    +transition( 0.2s )
+    opacity: 0
