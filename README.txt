@@ -8,7 +8,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 CHSIE Events modifies the Events Calendar and Event Tickets plugins by Modern Tribe, and is dependent upon them.
 
-
+ 
 == Description ==
 
 CHSIE Events modifies the Events Calendar and Event Tickets plugins by Modern Tribe.  It provides the following functionality:

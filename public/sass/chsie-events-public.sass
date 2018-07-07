@@ -5,31 +5,34 @@
 
 @import globals/chsie-events-public-globals
 
-// Event Materials
-.tribe_events
-    .event-materials-section-title
+// New targeting, cleaner:
+#event-materials
+    padding: 3% 0
+
+    > div:first-of-type
         padding: 0 4%
 
-    .event-materials-title
-        margin-top: 20px
-
-    .event-materials-group h4 a
-        &::after
-            +transition( 0.2s )
-            font-family: 'ETmodules'
-            font-size: 26px
-            content: '\35'
-            position: absolute
-            opacity: 0
-            margin-left: -35px
-
-        &:hover, &:focus
-            +transition( 0.2s )
-            color: $lt-gold
-
+    .tribe-events-meta-group
+        h4 a
             &::after
-                opacity: 1
-                margin-left: -2px
+                +transition( 0.2s )
+                font-family: 'ETmodules'
+                font-size: 26px
+                content: '\35'
+                position: absolute
+                opacity: 0
+                margin-left: -35px
+                margin-top: 2px
+
+            &:hover, &:focus
+                +transition( 0.2s )
+                color: $lt-gold
+
+                &::after
+                    opacity: 1
+                    margin-left: -2px
+
+
 
 // Event RSVP
 #rsvp-title
@@ -43,7 +46,6 @@
 #current-user-registration-info
     margin-bottom: 2%
 
-#current-user-registration-info
     form
         margin-top: 26px
 

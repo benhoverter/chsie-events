@@ -25,6 +25,9 @@ Author URI: http://benhoverter.com
 
         // -------------------Tribe Event page modifications.
 
+        // Remove the Lower Menu from the Tribe RSVP area:
+        $( '#rsvp-now #chsie-lower-menu' ).remove();
+
         // Move the Confirm RSVP button to the same row as the input fields.
         function moveRSVPconfirm() {
 

@@ -272,7 +272,7 @@ class CHSIE_Events_Public {
             $event_materials_array = unserialize( $event_meta[ "_event_materials" ][0] );
 
             // Start the HTML section.
-            $event_materials_public_output = "<div id='event-materials-wrapper' class='tribe-events-single-section tribe-events-event-meta primary tribe-clearfix'><div class='event-materials-section-title'><h3 class='tribe-events-single-section-title event-materials-title'>Event Materials</h3></div>";
+            $event_materials_public_output = "<div id='event-materials' class='tribe-events-single-section tribe-events-event-meta primary tribe-clearfix'><div><h3 class='tribe-events-single-section-title'>Event Materials</h3></div>";
 
             // Iterate.  For each event material selection, get its Title, Description, and URL, and build HTML from the data.
             for ( $i = 0 ; $i < count( $event_materials_array ) ; $i++ ) {
@@ -283,7 +283,7 @@ class CHSIE_Events_Public {
                                                 <h4>
                                                     <a href='{$event_materials['url']}' target='_blank'> {$event_materials['title']} </a>
                                                 </h4>
-                                                <div class='event-materials-description'>
+                                                <div>
                                                     <p> <strong>Description: </strong>{$event_materials['description']}  </p>
                                                 </div>
                                             </div>" ;
