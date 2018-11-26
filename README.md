@@ -3,6 +3,7 @@
 Contributors: Ben Hoverter
 
 License: GPLv2 or later
+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 CHSIE Events modifies the Events Calendar and Event Tickets plugins by Modern Tribe, and is dependent upon them.
@@ -12,9 +13,11 @@ CHSIE Events modifies the Events Calendar and Event Tickets plugins by Modern Tr
 
 CHSIE Events modifies the Events Calendar and Event Tickets plugins by Modern Tribe.  It provides the following functionality:
 
-- Modified user event registration on Event pages.  Users are restricted to reservations of a single spot, and registration fields are auto-populated with user data to encourage consistency across the platform. ***WIP: The link provided by Event Tickets at the bottom of Event pages is redirected to an admin-specified page (like a User Dashboard) where the [user-event-registration] shortcode displays data. That page can be specified in Settings > CHSIE Events.***
+- Modified user event registration on Event pages.  Users are restricted to reservations of a single spot, and registration fields are auto-populated with user data to encourage consistency across the platform. 
 
-- ***WIP: The plugin collates user event data to determine number of hours of event attendance.  This is displayed in the [user-event-registration] shortcode below.***
+***WIP: The link provided by Event Tickets at the bottom of Event pages is redirected to an admin-specified page (like a User Dashboard) where the [user-event-registration] shortcode displays data. That page can be specified in Settings > CHSIE Events.***
+
+***WIP: The plugin collates user event data to determine number of hours of event attendance.  This is displayed in the [user-event-registration] shortcode below.***
 
 - User event registration info can be displayed with a shortcode: [user-event-registration].  This displays the current user's registered events, as well as all relevant info from those events, ordered by event date.
 
