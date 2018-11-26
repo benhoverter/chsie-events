@@ -27,9 +27,6 @@ CHSIE Events modifies the Events Calendar and Event Tickets plugins by Modern Tr
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
-1. Upload `chsie-events.zip` to the `/wp-content/plugins/` directory
+1. Download the entire repository to a folder.
+2. Zip that folder, then upload it to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress
